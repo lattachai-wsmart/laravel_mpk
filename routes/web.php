@@ -13,6 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+
+Route::resource('/', 'HomeController');
+Route::resource('/Home', 'HomeController');
+Route::resource('/About', 'AboutController');
+Route::resource('/Product', 'ProductController');
+Route::resource('/Promotion', 'PromotionController');
+Route::resource('/Service', 'ServiceController');
+Route::resource('/News', 'NewsController');
+Route::resource('/Gallery', 'GalleryController');
+Route::resource('/Register', 'RegisterController');
+Route::resource('/Contact', 'ContactController');

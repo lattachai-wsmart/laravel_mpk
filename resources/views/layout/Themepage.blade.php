@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <title>MPK</title>
-    
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link href="https://fontawesome.com/v4.7.0/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="stylesheet" href="{{ asset('css/font/stylesheet.css') }}">
 <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
@@ -14,9 +14,14 @@
 </head>
 
 <style>
-body{
-    font-family:'helvetica','rsu';
-}
+html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'helvetica','rsu', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
 
 </style>
 
@@ -26,12 +31,6 @@ body{
 @extends('layout.Navbar')
 
 @yield('content')
-
-<br>
-<br>
-<br>
-<br>
-<br>
 
 @extends('layout.Footer')
 

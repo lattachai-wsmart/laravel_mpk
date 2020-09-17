@@ -41,7 +41,7 @@
     font-weight:100;
     color:#929292;
     font-size:15px;
-    margin-top:200px;
+    margin-top:180px;
 }
 .icon{
     margin-left:-10px;
@@ -51,15 +51,18 @@
 .input_email_main{
 
     border:1px solid #f46738;
-    background-color:#fff;
+    background-color:#000;
 }
 
 .input_email {
+    background-color:#000;
     margin-left: -13px;
     width: 237px;
 }
 .title_col{
+    font-weight:bold;
     margin-top:40px;
+    margin-bottom: 40px;
 }
 
 .iconFooter{
@@ -72,7 +75,6 @@
 </style>
 <div class="bg-footer">
 
-
 <div class="row">
 <div class="col-1"></div>
 <div class="col-10">
@@ -80,13 +82,13 @@
         <div class="col-sm-3">
                 <div class="col-12 title_col">Follow Us </div>
                 <div class="col-12 iconFooter">
-                    <img class="style_icon" src="{{asset('img/icon_footer/facebook_white.png')}}" width="30px"/>
-                    <img class="style_icon" src="{{asset('img/icon_footer/youtube_white.png')}}" width="30px"/>
-                    <img class="style_icon" src="{{asset('img/icon_footer/instagram_white.png')}}" width="30px"/>
-                    <img class="style_icon" src="{{asset('img/icon_footer/chat_white.png')}}" width="30px"/>
+                    <img class="style_icon" src="{{asset('img/icon_footer/facebook_white.png')}}" width="35px"/>
+                    <img class="style_icon" src="{{asset('img/icon_footer/youtube_white.png')}}" width="35px"/>
+                    <img class="style_icon" src="{{asset('img/icon_footer/instagram_white.png')}}" width="35px"/>
+                    <img class="style_icon" src="{{asset('img/icon_footer/chat_white.png')}}" width="35px"/>
                 </div>
                 <br/>
-                <div class="col-12 call"> <img class="style_icon" src="{{asset('img/icon_footer//footer_tel_orange.png')}}" width="30px"/>     086-3261730 </div>
+                <div class="col-12 call"> <img class="style_icon" src="{{asset('img/icon_footer//footer_tel_orange.png')}}" width="25px"/>     086-3261730 </div>
                 <br/>
                 <div class="col-12 address">1097 Rama 3 Rd. Chong nonsi <br /> Yannawa Bangkok 10120 </div>
             <br>
@@ -123,7 +125,7 @@
 
         <div class="col-3">
             <div class="row">
-                <div class="col-12 title_col">Subscribe </div>
+                <div class="col-12 title_col"><div style="margin-left:-15px;"> Subscribe  </div>  </div>
 
                 <div class="row col-12">
                 <div class="input_email_main col-8"><input class="input_email" type="email" placeholder="Your Email" /> </div>
@@ -148,7 +150,7 @@
 
     </div>
     </div>
-    <div class="col-1"></div>
+
     </div>
 
 </div>

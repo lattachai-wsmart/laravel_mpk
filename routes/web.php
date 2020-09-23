@@ -24,8 +24,17 @@ Route::resource('/Home', 'HomeController');
 Route::resource('/About', 'AboutController');
 Route::resource('/Product', 'ProductController');
 Route::resource('/Promotion', 'PromotionController');
+
+Route::resource('/bike_for_sell', 'BickForSellController');
+Route::resource('/category', 'CategoryController');
+Route::resource('/select_your_bike', 'SelectYourBikeController');
+
+
 Route::resource('/Service', 'ServiceController');
+
 Route::resource('/News', 'NewsController');
+Route::resource('/News_show', 'NewsShowController');
+
 Route::resource('/Gallery', 'GalleryController');
 Route::resource('/Register', 'RegisterController');
 Route::resource('/Contact', 'ContactController');

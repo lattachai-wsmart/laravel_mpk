@@ -22,12 +22,18 @@ use Illuminate\Support\Facades\Route;
 Route::resource('/', 'HomeController');
 Route::resource('/Home', 'HomeController');
 Route::resource('/About', 'AboutController');
+
 Route::resource('/Product', 'ProductController');
+Route::resource('/Product_show', 'ProductshowController');
+
 Route::resource('/Promotion', 'PromotionController');
+Route::resource('/Promotion_show', 'PromotionshowController');
 
 Route::resource('/bike_for_sell', 'BickForSellController');
 Route::resource('/category', 'CategoryController');
+
 Route::resource('/select_your_bike', 'SelectYourBikeController');
+Route::resource('/Select_show', 'SelectyoubikeshowController');
 
 
 Route::resource('/Service', 'ServiceController');

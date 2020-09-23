@@ -131,7 +131,11 @@
   padding:10px;
 }
 
-
+span{
+  color:#ff6634;
+  font-size:20px;
+  font-weight:bold;
+}
 
 
 
@@ -160,7 +164,8 @@
       </div>
   </div>
   <div class="col-2"></div>
-  <div class="col-6">
+  <div class="col-6" style="font-size:20px; font-weight:bold; color:#fff;">
+  &nbsp; &nbsp;   01/<span>05</span><br>
   <img src="{{asset('img/product/bike/barslide_top.png')}}" alt=""/>
   </div>
 </div>

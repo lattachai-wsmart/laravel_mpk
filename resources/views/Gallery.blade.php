@@ -274,7 +274,7 @@ span{
                 <a href="http://">
                         <br>
                     <div class="container">
-                    <img src="{{asset('img/gallery/7.png')}}" class="image" />
+                    <img src="{{asset('img/gallery/'.$i.'.png')}}" class="image" />
                     <div class="overlay"><div class="text">FUll IMAGE</div></div>
                     </div>
                 </a> 

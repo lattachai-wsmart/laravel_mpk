@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\About' => $baseDir . '/app/About.php',
     'App\\Bick_for_sell' => $baseDir . '/app/Bick_for_sell.php',
+    'App\\Bickforsellshow' => $baseDir . '/app/Bickforsellshow.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Contact' => $baseDir . '/app/Contact.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
@@ -30,6 +31,7 @@ return array(
     'App\\Http\\Controllers\\PromotionshowController' => $baseDir . '/app/Http/Controllers/PromotionshowController.php',
     'App\\Http\\Controllers\\RegisterController' => $baseDir . '/app/Http/Controllers/RegisterController.php',
     'App\\Http\\Controllers\\SelectYourBikeController' => $baseDir . '/app/Http/Controllers/SelectYourBikeController.php',
+    'App\\Http\\Controllers\\SelectyoubikeshowController' => $baseDir . '/app/Http/Controllers/SelectyoubikeshowController.php',
     'App\\Http\\Controllers\\ServiceController' => $baseDir . '/app/Http/Controllers/ServiceController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',

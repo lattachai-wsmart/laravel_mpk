@@ -488,6 +488,7 @@ class ComposerStaticInitbdbbec5dc05a2605e7e587913a5f4032
     public static $classMap = array (
         'App\\About' => __DIR__ . '/../..' . '/app/About.php',
         'App\\Bick_for_sell' => __DIR__ . '/../..' . '/app/Bick_for_sell.php',
+        'App\\Bickforsellshow' => __DIR__ . '/../..' . '/app/Bickforsellshow.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Contact' => __DIR__ . '/../..' . '/app/Contact.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
@@ -510,6 +511,7 @@ class ComposerStaticInitbdbbec5dc05a2605e7e587913a5f4032
         'App\\Http\\Controllers\\PromotionshowController' => __DIR__ . '/../..' . '/app/Http/Controllers/PromotionshowController.php',
         'App\\Http\\Controllers\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/RegisterController.php',
         'App\\Http\\Controllers\\SelectYourBikeController' => __DIR__ . '/../..' . '/app/Http/Controllers/SelectYourBikeController.php',
+        'App\\Http\\Controllers\\SelectyoubikeshowController' => __DIR__ . '/../..' . '/app/Http/Controllers/SelectyoubikeshowController.php',
         'App\\Http\\Controllers\\ServiceController' => __DIR__ . '/../..' . '/app/Http/Controllers/ServiceController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',

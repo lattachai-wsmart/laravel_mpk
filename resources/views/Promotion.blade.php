@@ -218,12 +218,12 @@ span{
                  <div class="col-12" style="margin-top:30px; text-align: right; color:#999999; font-weight:700;"> <span>1</span> / 3 < | > </div>                   
                     @for ($i = 1; $i < 6; $i++)
                         <div class="col-3">
-                        <a href="http://">
+                        <a href="{{ url('Promotion_show') }}">
                         <br>
                             <div class="container">
                                 <div class="show_top"> &nbsp; &nbsp; HOT DEAL</div>
                                 <center>
-                                <img src="{{asset('img/promotion/item/15.png')}}" class="image" />
+                                <img src="{{asset('img/promotion/item/3.png')}}" class="image" />
                                 </center>
                                 <div class="overlay">
                                     <div class="text">READ MORD <i class="fas fa-arrow-right"></i></div>
@@ -244,7 +244,7 @@ span{
 
                     @for ($i = 1; $i < 6; $i++)
                         <div class="col-3">
-                        <a href="http://">
+                        <a href="{{ url('Promotion_show') }}">
                         <br>
                             <div class="container">
                                 <div class="show_top2"> &nbsp; &nbsp; SAVE</div>
@@ -270,7 +270,7 @@ span{
 
                     @for ($i = 1; $i < 4; $i++)
                         <div class="col-3">
-                        <a href="http://">
+                        <a href="{{ url('Promotion_show') }}">
                         <br>
                             <div class="container">
                                 <div class="show_top3"> &nbsp; &nbsp; NEW</div>
@@ -296,7 +296,7 @@ span{
 
                     @for ($i = 0; $i < 3; $i++)
                         <div class="col-3">
-                        <a href="http://">
+                        <a href="{{ url('Promotion_show') }}">
                         <br>
                             <div class="container">
                                 

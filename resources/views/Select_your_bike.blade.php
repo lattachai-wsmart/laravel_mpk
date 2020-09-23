@@ -74,9 +74,10 @@
 }
 
 .image {
-  margin-top:35px;
+  margin-top:0px;
   display: block;
-  width: 220px;
+  width: 268px;
+  height: 268px;
   background-size: cover;
 }
 
@@ -489,11 +490,11 @@ span{
     <div class="row">
                          @for ($i = 1; $i < 13; $i++)
                         <div class="col-4">
-                        <a href="http://">
+                        <a href="{{ url('Promotion_show') }}">
                         <br>
                             <div class="container">
                                 <center>
-                                <img src="{{asset('img/product/6.png')}}" class="image" />
+                                <img src="{{asset('img/product/'.$i.'.png')}}" class="image" />
                                 </center>
                                 <div class="overlay">
                                     <div class="text">READ MORD <i class="fas fa-arrow-right"></i></div>

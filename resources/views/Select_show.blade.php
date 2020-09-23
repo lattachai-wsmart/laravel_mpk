@@ -19,13 +19,19 @@ span{
 .product{
     width:100%;
     min-height:800px;
-    background-color:#f5f5f5;
+    /* background-color:#f5f5f5; */
     padding-left:100px;
 }
 .text_title{
     margin-top:10px;
     font-size:15px;
     color:#333333;
+    font-weight: bold;
+}
+.text_title2{
+    margin-top:10px;
+    font-size:15px;
+    color:#000;
     font-weight: bold;
 }
 .text_price1{
@@ -40,8 +46,8 @@ font-weight: bold;
   font-weight: bold;
 }
 .container {
-  width: 180px;
-  height: 180px;
+  width: 240px;
+  height: 240px;
   border:1px solid #bbbbbb;
   padding: 0px;
 }
@@ -89,6 +95,13 @@ font-weight: bold;
     background-position: center;
 }
 .boxshop{margin-top:20px;}
+
+.boxslidebar{
+  width:100%;
+    min-height:400px;
+    background-color:#f5f5f5;
+}
+
 </style>
 
 <div class="bg" style="margin-top:75px;"></div>
@@ -101,170 +114,167 @@ font-weight: bold;
 HOME / PRODUCT / BRAKE SYSTEM / <span>DISC BRAKE</span>
 </div>
 <!-- top -->
-<img src="{{asset('img/product/product_detel/center.png')}}" width="100%"/>
 <!-- Center --->
 <div class="row">
-<img src="{{asset('img/product/product_detel/barslide.png')}}" width="100%"/>
-    <div class="product">
+<div class="product">
 
 <div class="row">    
-<div class="col-7">
-    <div
-      class="horVerSlider"
-      data-desktop="800"
-      data-tabportrait="600"
-      data-tablandscape="600"
-      data-mobilelarge="375"
-      data-mobilelandscape="500"
-      data-mobileportrait="375"
-    >
-      <div class="close"></div>
-      <div class="vertical-wrapper">
-        <div id="vertical-slider">
-          <ul>
-            <li
-              data-image="{{asset('img/product/category/1.png')}}"
-            ></li>
-            <li
-              data-image="{{asset('img/product/category/2.png')}}"
-            ></li>
-            <li
-              data-image="{{asset('img/product/category/3.png')}}"
-            ></li>
-            <li
-              data-image="{{asset('img/product/category/4.png')}}"
-            ></li>
+  <div class="col-7">
+      <div
+        class="horVerSlider"
+        data-desktop="800"
+        data-tabportrait="600"
+        data-tablandscape="600"
+        data-mobilelarge="375"
+        data-mobilelandscape="500"
+        data-mobileportrait="375"
+      >
+        <div class="close"></div>
+        <div class="vertical-wrapper">
+          <div id="vertical-slider">
+            <ul>
+              <li
+                data-image="{{asset('img/product/category/1.png')}}"
+              ></li>
+              <li
+                data-image="{{asset('img/product/category/2.png')}}"
+              ></li>
+              <li
+                data-image="{{asset('img/product/category/3.png')}}"
+              ></li>
+              <li
+                data-image="{{asset('img/product/category/4.png')}}"
+              ></li>
 
-          </ul>
+            </ul>
+          </div>
+        </div>
+        <div class="horizon-wrapper">
+          <div id="horizon-slider">
+            <ul style="width: 7000px; height: 700px; left: 0px; top: 0px;">
+              <li
+                data-image="{{asset('img/product/category/1.png')}}"
+                class="ui-draggable"
+              ></li>
+              <li
+                data-image="{{asset('img/product/category/2.png')}}"
+                class="ui-draggable"
+              ></li>
+              <li
+                data-image="{{asset('img/product/category/3.png')}}"
+                class="ui-draggable"
+              ></li>
+              <li
+                data-image="{{asset('img/product/category/4.png')}}"
+                class="ui-draggable"
+              ></li>
+
+            </ul>
+          </div>
+
         </div>
       </div>
-      <div class="horizon-wrapper">
-        <div id="horizon-slider">
-          <ul style="width: 7000px; height: 700px; left: 0px; top: 0px;">
-            <li
-              data-image="{{asset('img/product/category/1.png')}}"
-              class="ui-draggable"
-            ></li>
-            <li
-              data-image="{{asset('img/product/category/2.png')}}"
-              class="ui-draggable"
-            ></li>
-            <li
-              data-image="{{asset('img/product/category/3.png')}}"
-              class="ui-draggable"
-            ></li>
-            <li
-              data-image="{{asset('img/product/category/4.png')}}"
-              class="ui-draggable"
-            ></li>
+  </div>
+  <div class="col-4">
+    <div class="del" style="margin-top:80px;">
+      <div class="brand">BRAND</div>
+      <div class="text_title">BRAKE DISC 321X6 EWC <br> S1000 RR 2019</div>
+      <div class="number">ORDER CODE NO.00504</div>
+      <div class="procecut"><s>3,210.00 BAHT</s></div>
+      <div class="price">1,234.00 BAHT</div>
 
-          </ul>
-        </div>
+      <div class="detel">
+      DESCRIPTION <br>
 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
       </div>
-    </div>
-</div>
-<div class="col-4">
-   <div class="del" style="margin-top:80px;">
-    <div class="brand">BRAND</div>
-    <div class="text_title">BRAKE DISC 321X6 EWC <br> S1000 RR 2019</div>
-    <div class="number">ORDER CODE NO.00504</div>
-    <div class="procecut"><s>3,210.00 BAHT</s></div>
-    <div class="price">1,234.00 BAHT</div>
-
-    <div class="detel">
-    DESCRIPTION <br>
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
-    </div>
   </div>  
-<div class="box_num">
+  <div class="box_num">
 
-    <div class="row">
-        <div class="col-8">AVAILABLE</div>
-        <div class="col-3">QUANTITY</div>
+      <div class="row">
+          <div class="col-8">AVAILABLE</div>
+          <div class="col-3">QUANTITY</div>
+      </div>
+
+      <div class="row">
+          <div class="col-8">
+          <img src="{{asset('img/product/product_detel/color.png')}}" width="50%"/>
+
+          <div class="boxshop">
+            <div class="4">
+                <div class="row">
+                <div class="col-1" style="border:1px solid #666666; color:#ff6634; padding:10px; margin-left:15px; text-align:center; padding-left:15px; padding-right:20px; margin-right:30px;">
+                2
+                </div>
+                <div class="4" style="border:1px solid #ff6634; color:#ff6634; padding:10px;"> + ADD TO CART </div>
+                </div>
+            </div>
+          <!-- <img src="{{asset('img/product/product_detel/shop.png')}}" width="50%"/> -->
+          </div>
+          </div>
+          <div class="col-3" style="text-align:center;">3</div>
+      </div>
+
+  </div>
+</div>
+</div>
+
     </div>
+</div>
 
-    <div class="row">
-        <div class="col-8">
-        <img src="{{asset('img/product/product_detel/color.png')}}" width="50%"/>
 
-        <div class="boxshop">
-        <img src="{{asset('img/product/product_detel/shop.png')}}" width="50%"/>
+<img src="{{asset('img/product/product_detel/center.png')}}" width="100%"/>
+<img src="{{asset('img/product/product_detel/barslide.png')}}" width="100%"/>
+    <div class="boxslidebar">
+      <div class="row">
+        <div class="col-1">
+            <div class="customNavigation">
+            <a class="btn prev" style="margin-top:100px;float: right; margin-right: -20px;">
+            <img src="{{asset('img/gallery/back_orange_slide.png')}}" width="40px" />
+            </a>
+            </div>
         </div>
+        <div class="col-10">
+        <!-- row -->
+        <div class="row">
+            <div id="owl-demo" class="owl-carousel owl-theme">
+            @for ($i = 1; $i < 8; $i++)
+            <div class="item">
+                <div class="col-12">
+                <div class="container">
+                    <img src="{{asset('img/product/'.$i.'.png')}}" width="100%" style="object-fit: cover; width:237px; height:237px;" />
+                </div>    
+                    <div class="row">
+                        <div class="col-12 text_title2">BRAKE DISC 321X6 EWC <br> S1000 RR 2019</div>
+                        <div class="col-12" style="height:10px;"></div>
+                        <div class="col-2 text_price1"><s>฿3,210</s></div>
+                        <div class="col-2 text_price2">฿1,234</div>
+                        <div class="col-4"></div>
+                        <div class="col-2">
+                        <div class="card_2">
+                        <img src="{{asset('img/promotion/cart.png')}}" width="30px" style="margin-top:-15px;">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @endfor
+            </div>
         </div>
-        <div class="col-3"><center>3</center></div>
+        <!-- row -->
+        </div>
+        <div class="col-1"> 
+            <div class="customNavigation">
+            <a class="btn next" style="margin-top:100px;float: left; margin-left: -16px;">
+            <img src="{{asset('img/gallery/next_orange_slide.png')}}"  width="40px" />
+            </a>
+            </div>
+        </div>
     </div>
-
-</div>
-
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
+  </div>
 </div>
 <!-- Center --->
 <img src="{{asset('img/product/product_detel/footer.png')}}" width="100%"/>
-
-
-<div class="col-1">
-    <div class="customNavigation">
-    <a class="btn prev" style="margin-top:50px;float: right; margin-right: -30px;">
-    <img src="{{asset('img/gallery/back_orange_slide.png')}}" width="40px" />
-    </a>
-    </div>
-    </div>
-    <div class="col-10">
-    <!-- row -->
-    <div class="row">
-        <div id="owl-demo" class="owl-carousel owl-theme">
-        @for ($i = 0; $i < 8; $i++)
-        <div class="item">
-            <div class="col-12">
-            <div class="container">
-                <img src="{{asset('img/product/6.png')}}" width="100%" />
-            </div>    
-                <div class="row">
-                    <div class="col-12 text_title">BRAKE DISC 321X6 EWC <br> S1000 RR 2019</div>
-                    <div class="col-12" style="height:10px;"></div>
-                    <div class="col-2 text_price1"><s>฿3,210</s></div>
-                    <div class="col-2 text_price2">฿1,234</div>
-                    <div class="col-4"></div>
-                    <div class="col-2"><img src="{{asset('img/promotion/cart.png')}}" width="20px"></div>
-                </div>
-            </div>
-        </div>
-        @endfor
-        </div>
-    </div>
-    <!-- row -->
-    </div>
-    <div class="col-1"> 
-        <div class="customNavigation">
-        <a class="btn next" style="margin-top:50px;float: left; margin-left: -55px;">
-        <img src="{{asset('img/gallery/next_orange_slide.png')}}"  width="40px" />
-        </a>
-        </div>
-    </div>
-
-
-
-</div>
-
-
 
 <script>
 $(document).ready(function() {

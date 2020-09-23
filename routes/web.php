@@ -30,6 +30,8 @@ Route::resource('/Promotion', 'PromotionController');
 Route::resource('/Promotion_show', 'PromotionshowController');
 
 Route::resource('/bike_for_sell', 'BickForSellController');
+Route::resource('/bikeforsell_show', 'BickforsellshowController');
+
 Route::resource('/category', 'CategoryController');
 
 Route::resource('/select_your_bike', 'SelectYourBikeController');

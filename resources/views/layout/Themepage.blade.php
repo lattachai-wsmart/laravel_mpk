@@ -29,17 +29,10 @@
     <!-- Prettify -->
     <link href="http://www.landmarkmlp.com/js-plugin/owl.carousel/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
-
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-
-
-
-
-
-
+<link href="{{ asset('css/horizontalvertical.css') }}" rel="stylesheet" />
 
 </head>
 <style>
@@ -70,9 +63,8 @@ html, body {
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-
 <script src="http://www.landmarkmlp.com/js-plugin/owl.carousel/assets/js/jquery-1.9.1.min.js"></script> 
-    <script src="http://www.landmarkmlp.com/js-plugin/owl.carousel/owl-carousel/owl.carousel.js"></script>
+<script src="http://www.landmarkmlp.com/js-plugin/owl.carousel/owl-carousel/owl.carousel.js"></script>
 
-
+<script src="{{ asset('js/horizontalvertical.js') }}"></script>
 </html>

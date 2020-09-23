@@ -15,7 +15,7 @@ class SelectyoubikeshowController extends Controller
     public function index()
     {
         //
-        return view('Select_show')
+        return view('Select_show');
     }
 
     /**
